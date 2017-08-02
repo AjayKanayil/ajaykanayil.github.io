@@ -236,6 +236,20 @@ hr.ghost{
   hr.ghost-mobile{
     opacity: 0;
   }
+
+  #ajay-image{
+    /*background-image: url(../img/ajay.png);*/
+    height: 14em;
+    width: 14em;
+    position: absolute;
+    z-index: -999;
+    left: 50%;
+    top: 15%;
+    display: block;
+
+    /*background-size: contain;*/
+}
+
 }
 
 @media print,

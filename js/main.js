@@ -1,6 +1,8 @@
 var imagepos = $("#ajay-image").offset();
 var imagesize = $("#ajay-image").width();
 
+
+
 $(document).mousemove(function(event){
     // $("span").text(event.pageX + ", " + event.pageY);
     $("#ajay-image").css("left",imagepos.left+event.pageX/100);
