@@ -233,6 +233,9 @@ hr.ghost{
     transform: scale(1.1);
     background-image:none;
   }
+    .social:hover a i{
+    transform: scale(1.1);
+  }
   hr.ghost-mobile{
     opacity: 0;
   }
