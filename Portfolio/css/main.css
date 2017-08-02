@@ -1,0 +1,322 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body, p {
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+  color: #000;
+  font-size: 17px;
+  line-height: 1.6em;
+  font-weight: 400;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+h6 {
+  margin-bottom: 10px;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.bold{
+    font-weight: bold;
+}
+.top200{
+    padding-top: 200px;
+}
+.top50{
+    margin-top: 50px;
+}
+.social-pane{
+  
+}
+.social{
+    text-align: center;
+    /*background: #6e00ff;*/
+    transition: all cubic-bezier(0.35, 1.01, 0.21, 1.53) .2s;
+    cursor: pointer;
+}
+.social:hover{
+    transform: scale(1.1);
+    border-radius: 1px;
+    /*background: rgba(110, 0, 255, 0.6);
+    background-image: linear-gradient(to bottom, rgba(110, 0, 255, 0.6), rgba(110, 0, 255, 0.6)),  url("../img/giphy.gif");*/
+    background-image: url("../img/giphy.gif");
+    background-size:cover;
+    z-index: 999;
+}
+.social a{
+    color:#FF3459;
+    font-size:20px;
+
+    line-height: 15;
+    display: block;
+
+    
+}
+.social a i{
+    transition: all cubic-bezier(0.35, 1.01, 0.21, 1.53) .35s;
+}
+.social:hover a i{
+    transform: scale(2.3);
+    
+    
+}
+
+
+hr{
+    margin: 3em 0;
+}
+.alink{
+    color: #FF3459;
+
+    margin-bottom: 10px;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 400;
+
+}
+
+.alink:hover{
+    color: #000;
+    text-decoration: none;
+}
+.no-padding{
+    padding: 0;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 35em) {
+    .social a{
+    line-height: 7;
+
+    
+}
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
