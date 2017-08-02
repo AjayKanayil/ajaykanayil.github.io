@@ -117,6 +117,17 @@ h6 {
   font-weight: 400;
 }
 
+*::selection {
+  background: #FF3459; /* WebKit/Blink Browsers */
+  color: #fff;
+}
+*::-moz-selection {
+  background: #FF3459; /* Gecko Browsers */
+  color: #fff;
+}
+
+
+
 .bold{
     font-weight: bold;
 }
@@ -196,16 +207,17 @@ hr.ghost{
     padding: 0;
 }
 #ajay-image{
-        height: 14em;
-    width: auto;
+    /*background-image: url(../img/ajay.png);*/
+    height: 14em;
+    width: 14em;
     position: absolute;
     z-index: -999;
-    right: 13%;
-    top: 19%;
+    left: 75%;
+    top: 15%;
     display: block;
+
+    /*background-size: contain;*/
 }
-
-
 
 
 
@@ -220,6 +232,9 @@ hr.ghost{
     .social:hover{
     transform: scale(1.1);
     background-image:none;
+  }
+  hr.ghost-mobile{
+    opacity: 0;
   }
 }
 
