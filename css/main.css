@@ -144,6 +144,7 @@ h6 {
     background-size:cover;
     z-index: 999;
 }
+
 .social a{
     color:#FF3459;
     font-size:20px;
@@ -161,8 +162,15 @@ h6 {
     
     
 }
+.social:active a{
+    color: #000;
+    
+}
 
-
+.social:active a i{
+    
+    transform: scale(2.1);
+}
 hr{
     margin: 3em 0;
 }
@@ -184,7 +192,15 @@ hr{
 .no-padding{
     padding: 0;
 }
-
+#ajay-image{
+        height: 14em;
+    width: auto;
+    position: absolute;
+    z-index: -999;
+    right: 13%;
+    top: 19%;
+    display: block;
+}
 
 
 
@@ -197,9 +213,11 @@ hr{
 @media only screen and (max-width: 35em) {
     .social a{
     line-height: 7;
-
-    
-}
+    }
+    .social:hover{
+    transform: scale(1.1);
+    background-image:none;
+  }
 }
 
 @media print,
