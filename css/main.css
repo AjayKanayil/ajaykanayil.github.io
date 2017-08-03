@@ -226,32 +226,35 @@ hr.ghost{
    ========================================================================== */
 
 @media only screen and (max-width: 35em) {
-    .social a{
-    line-height: 7;
-    }
-    .social:hover{
-    transform: scale(1.1);
-    background-image:none;
-  }
-    .social:hover a i{
-    transform: scale(1.1);
-  }
-  hr.ghost-mobile{
-    opacity: 0;
-  }
+            .social a{
+            line-height: 7;
+            }
+            .social:hover{
+            transform: scale(1.1);
+            background-image:none;
+          }
+            .social:hover a i{
+            transform: scale(1.1);
+          }
+          hr.ghost-mobile{
+            opacity: 0;
+          }
 
-  #ajay-image{
-    /*background-image: url(../img/ajay.png);*/
-    height: 14em;
-    width: 14em;
-    position: absolute;
-    z-index: -999;
-    left: 50%;
-    top: 15%;
-    display: block;
+          #ajay-image{
+            /*background-image: url(../img/ajay.png);*/
+            height: 14em;
+            width: 14em;
+            position: absolute;
+            z-index: -999;
+            left: 50%;
+            top: 15%;
+            display: block;
 
-    /*background-size: contain;*/
-}
+            /*background-size: contain;*/
+        }
+        body, html{
+          overflow-x: hidden;
+        }
 
 }
 
