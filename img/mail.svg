@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="28px" viewBox="0 0 34 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>mail_outline - material</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-67.000000, -47.000000)" fill="#FF3459">
+            <path d="M84.25,59.36 L97.61,51 L70.89,51 L84.25,59.36 Z M97.61,71 L97.61,54.36 L84.25,62.64 L70.89,54.36 L70.89,71 L97.61,71 Z M97.61,47.64 C98.5166712,47.64 99.2899968,47.97333 99.93,48.64 C100.570003,49.30667 100.89,50.0933288 100.89,51 L100.89,71 C100.89,71.9066712 100.570003,72.69333 99.93,73.36 C99.2899968,74.02667 98.5166712,74.36 97.61,74.36 L70.89,74.36 C69.9833288,74.36 69.2100032,74.02667 68.57,73.36 C67.9299968,72.69333 67.61,71.9066712 67.61,71 L67.61,51 C67.61,50.0933288 67.9299968,49.30667 68.57,48.64 C69.2100032,47.97333 69.9833288,47.64 70.89,47.64 L97.61,47.64 Z" id="mail_outline---material"></path>
+        </g>
+    </g>
+</svg>
