@@ -246,6 +246,12 @@ hr.ghost{
               opacity: 0;
           }
 
+          .social:focus a i{
+              
+              transform: scale(5);
+              opacity: 0;
+          }
+
           hr.ghost-mobile{
             opacity: 0;
           }
