@@ -244,12 +244,14 @@ hr.ghost{
               
               transform: scale(5);
               opacity: 0;
+              color: #000;
           }
 
           .social:focus a i{
               
               transform: scale(5);
               opacity: 0;
+              color: #000;
           }
 
           hr.ghost-mobile{
