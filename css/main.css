@@ -215,7 +215,7 @@ hr.ghost{
     left: 75%;
     top: 15%;
     display: block;
-
+    /*transition: all ease-in .5s;*/
     /*background-size: contain;*/
 }
 
@@ -224,6 +224,12 @@ hr.ghost{
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+   @media (min-width: 1200px){
+   	.container {
+    width: 970px;
+}
+   }
+
 
 @media only screen and (max-width: 35em) {
             
