@@ -248,6 +248,7 @@ hr.ghost{
 .top-100{
 	margin-top: 100px;
 	display: block;
+	padding: 30px 60px 30px 0px;
 }
 
 .aj-modal-dialog {
@@ -323,6 +324,9 @@ hr.ghost{
 
             /*background-size: contain;*/
         }
+        .text-larger{
+	font-size: 2em;
+}
         body, html{
           overflow-x: hidden;
         }
