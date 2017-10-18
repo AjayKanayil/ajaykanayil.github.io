@@ -271,8 +271,9 @@ hr.ghost{
             position: absolute;
             z-index: -999;
             left: 50%;
-            top: 15%;
-            display: block;
+            top: 9%;
+            display: none;
+
 
             /*background-size: contain;*/
         }
