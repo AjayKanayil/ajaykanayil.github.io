@@ -55,7 +55,7 @@ $(document).mousemove(function(event){
     		'-ms-transform': 'scale(' + 1 + ')',
     		'-o-transform': 'scale(' + 1 + ')',
     		'transform': 'scale(' + 1 + ')',
-    		'transition': 'all ease-out .3s',
+    		'transition': '.3s',
     		'visibility': 'hidden',
     		'opacity': '0'
     	})
