@@ -87,7 +87,8 @@ h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
-  font-size: 32px;
+  /*font-size: 32px;*/
+  font-size: 1.5;
   line-height: 42px;
   font-weight: 500;
 }
@@ -275,6 +276,22 @@ hr.ghost{
     bottom: 0;
 }
 
+#mainBody
+{
+  /*transition:transform ease-out 12s;*/
+}
+
+#contact-image
+{
+  position: absolute;
+    top: 0%;
+    left: 15%;
+    /*transform: translate(-50%, -50%);*/
+    /*transform: scale(1);*/
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1048;
+}
 
 /* ==========================================================================
    Media Queries
