@@ -241,9 +241,9 @@ hr.ghost{
 	font-size: 5em;
 }
 
-.modal-body{
+/*.modal-body{
 	margin-top: 200px;
-}
+}*/
 
 .top-100{
 	margin-top: 100px;
@@ -320,8 +320,8 @@ hr.ghost{
               color: #000;
           }
 
-          hr.ghost-mobile{
-            opacity: 0;
+          .ghost-mobile{
+            display: none;
           }
 
           #ajay-image{
